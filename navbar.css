@@ -100,7 +100,8 @@ nav{
         height: 92vh;
         top: 8vh;
         background-color: rgb(135, 206, 235);
-        backdrop-filter: blur(2px);
+        background-color: rgb(135, 206, 235, 0.6);
+        backdrop-filter: blur(3px);
         align-items: center;
         width: 50%;
         transform: translateX(100%);
