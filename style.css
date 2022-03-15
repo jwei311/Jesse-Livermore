@@ -1,0 +1,62 @@
+section{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-color: azure;
+    background-image: url(background.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    text-align: center;
+    z-index: 1;
+}
+
+section:nth-of-type(1){
+    background-image: url(background.jpg);
+
+}
+
+section:nth-of-type(2){
+    background-image: none;
+}
+
+section:nth-of-type(3){
+    background-image: none;
+}
+
+.big-title{
+    position: relative;
+    font-size: 50px;
+    font-family: 'Fredoka', sans-serif;
+    padding-left: 30px;
+    color: black;
+    transform: translateY(30px);
+    opacity: 0;
+    animation-name: wordFade;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-delay: 0.5s;
+}
+
+@keyframes wordFade{
+    from{
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+

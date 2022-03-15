@@ -1,0 +1,25 @@
+.scroll{
+    position: absolute;
+    width: 607.35px;
+    height: 100vh;
+    left: 0;
+    top: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: black;
+    transform: translateY(25%);
+    display: none;
+}
+
+.scroll-button{
+    border: 1px solid black;
+    width: 30px;
+    height: 50px;
+    border-radius: 50px;
+}
+
+.ball{}
