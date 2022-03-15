@@ -39,6 +39,17 @@ section:nth-of-type(3){
     animation-delay: 0.5s;
 }
 
+@media screen and (max-width:768px){
+
+    section{
+        overflow-x: hidden;
+    }
+
+    .big-title{
+        padding-left: 0;
+    }
+}
+
 @keyframes wordFade{
     from{
         opacity: 0;
